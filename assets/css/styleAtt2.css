@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.header {
+    background-color: gold;
+    color: #000;
+    padding: 5px 15px;
+    border-bottom: 2px solid #555;
+}
+
+.header h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.form-container h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.form-group label {
+    width: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+
+
+.radio-group, .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.radio-group div, .checkbox-group div {
+    margin-bottom: 5px;
+}
+
+.radio-group input[type="radio"],
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    font-weight: normal;
+    text-align: left;
+    margin-right: 15px; /* Espaçamento entre as opções */
+    padding-top: 0;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    padding-left: 115px; /* Alinha os botões com os campos de input */
+}
+
+.form-buttons button {
+    padding: 4px 12px;
+    font-size: 12px;
+    border: 1px solid #7f9db9;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.form-buttons button:hover {
+    background-color: #e0e0e0;
+}
