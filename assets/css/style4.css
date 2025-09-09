@@ -9,7 +9,7 @@
 
 body {
   margin: 10px;
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 a {
@@ -31,7 +31,7 @@ a.links {
 /* formatando o cabeçalho dos formulários */
 h1 {
   font-size: 48px;
-  color: white;
+  color: black;
   padding: 10px 0;
   font-family: Arial, sans-serif;
   font-weight: bold;
@@ -128,7 +128,7 @@ input[type="submit"]:hover {
 /*marcando os links para mudar de um formulário para outro */
 .link {
   position: absolute;
-  background: black;
+  background: whitesmoke;
   color: #7f7c7c;
   left: 0px;
   height: 20px;
@@ -157,7 +157,7 @@ input[type="submit"]:hover {
 }
 .link a:hover {
   color: #39bfd7;
-  background: black;
+  background: whitesmoke;
   border: 1px solid #4ab3c6;
 }
 
@@ -169,11 +169,11 @@ input[type="submit"]:hover {
   width: 88%;
   padding: 18px 6% 60px 6%;
   margin: 0 0 35px 0;
-  background: black;
+  background: whitesmoke;
   border: 1px solid rgba(147, 184, 189, 0.8);
-  -webkit-box-shadow: 9px 7px 5px red;
-  -moz-box-shadow: 9px 7px 5px red;
-  box-shadow: 9px 7px 5px red;
+  -webkit-box-shadow: 9px 7px 5px rgb(77, 73, 73);
+  -moz-box-shadow: 9px 7px 5px rgb(77, 73, 73);
+  box-shadow: 9px 7px 5px rgb(77, 73, 73);
 
   -webkit-box-shadow: 5px;
   border-radius: 5px;
