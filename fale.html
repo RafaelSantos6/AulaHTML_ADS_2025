@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <form>
+            <fieldset>
+                <legend>
+                    <h2>Fale conosco</h2>
+                </legend>
+                <label for="nome" class="form-label" style="align-items: center;">Nome:</label>
+                <input type="text" id="nome" name="nome" class="form-input">
+
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" id="email" name="email" class="form-input">
+
+                <label for="mensagem" class="form-label">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" class="form-textarea"></textarea>
+
+                <button type="submit" class="form-button">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+
+    .form-container {
+        padding: 20px;
+        width: 350px;
+    }
+
+    .form-title {
+        background-color: #fddde6;
+        border: 2px solid #ff69b4;
+        color: #b3004a;
+        padding: 5px 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .form-label {
+        display: grid;
+        color: #006400;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .form-input,
+    .form-textarea {
+        width: 95%;
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        background-color: #fdebfde6;
+        font-size: 1em;
+    }
+
+    .form-button {
+        background-color: #f5e6e8;
+        border: 1px solid #c0c0c0;
+        padding: 8px 15px;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    fieldset {
+        background: linear-gradient(#d5facb, #98f198, #a8f1a8);
+        border-right: solid;
+        border-color: rgb(35, 192, 102);
+        ;
+    }
+
+    h2 {
+        color: rgb(255, 0, 0);
+        border-style: solid;
+        border-color: rgb(35, 192, 102);
+        background-color: rgb(255, 173, 248);
+    }
+</style>
+
+</html>
