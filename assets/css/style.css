@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 110px;
+}
+
+/* cabeçalho */
+
+header {
+    background-color: #0d1941;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+header p{
+    color: aliceblue;
+}
+
+nav {
+    background-color: #11235e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+/* Layout Principal */
+main {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+}
+
+/* Section */
+
+section {
+    flex: 3;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px;
+}
+
+/* Botao */
+.botao {
+    display: inline-block;
+    background-color: #11235e;
+    color: aliceblue;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #0d1941;
+    text-decoration: underline;
+    text-shadow: 10px black;
+}
+
+/* Barra Lateral Aside */
+
+aside {
+    flex: 1;
+    background-color: rgb(247, 238, 213);
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px;
+}
+h2{
+    color:#333 ;
+}
+p{
+    color: #1a1818;
+
+}
+/* footer */
+footer{
+   background-color: #0d1941;
+   text-align: center;
+   padding: 15px;
+}
+footer p{
+    color: aliceblue;
+}

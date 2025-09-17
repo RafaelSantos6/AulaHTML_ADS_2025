@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form>
+            <label for="usuario">Usuário</label>
+            <input type="text" id="usuario" name="usuario">
+            
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha">
+            
+            <button type="submit">login</button>
+        </form>
+        <a href="#" class="forgot-password">Esqueceu a senha?</a>
+    </div>
+
+    <style>
+        body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    width: 350px;
+    padding: 40px;
+    background-color: #2c3e50;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ecf0f1;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 5px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ecf0f1;
+    color: #ecf0f1;
+    font-size: 1.1em;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 40px;
+    border: none;
+    background-color: #c0392b;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+button:hover {
+    background-color: #e74c3c;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 20px;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+    </style>
+</body>
+</html>
